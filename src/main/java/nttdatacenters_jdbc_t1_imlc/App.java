@@ -36,7 +36,7 @@ public class App
     		
     		// Realizar consulta
     		final Statement sentence = dbConnection.createStatement();
-    		final String query = "SELECT u.name AS username, p.avatar AS profile_avatar FROM users INNER JOIN profiles ON u.user_id = p.user_id";;
+    		final String query = "SELECT u.name AS username, p.avatar AS profile_avatar FROM users AS u INNER JOIN profiles AS p ON u.user_id = p.user_id";
     		final ResultSet queryResult = sentence.executeQuery(query);
     		
     		// Qué hacer con los datos...
