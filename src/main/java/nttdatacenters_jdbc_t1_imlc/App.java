@@ -1,4 +1,4 @@
-package com.everis.curso_jdcb_hibernate;
+package nttdatacenters_jdbc_t1_imlc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

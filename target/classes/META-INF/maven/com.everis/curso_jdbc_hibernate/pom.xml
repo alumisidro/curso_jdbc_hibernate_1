@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.everis</groupId>
-  <artifactId>curso_jdcb_hibernate</artifactId>
+  <artifactId>curso_jdbc_hibernate</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>curso_jdcb_hibernate</name>
+  <name>curso_jdbc_hibernate</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
